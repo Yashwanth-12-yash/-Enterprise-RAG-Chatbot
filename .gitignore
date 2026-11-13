@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# RAG indexes and uploaded documents
+backend/vector_store/
+backend/uploads/
+models/
+*.index
+*.faiss
+chunks.json
+*.pdf
+
+# IDE and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
